@@ -42,9 +42,6 @@ This project is a ROS2 application that demonstrates a virtual robot navigating 
 
 5. Check the functionality of each node. For instance, you can verify the grid visualization in the `grid_setup_node` and the path visualization in the `path_planning_node`.
 
-6. (Optional) If available, run integration tests and the GUI (if implemented) to further validate the behavior of the ROS2 application.
+6. Future steps: run integration tests and the GUI to further validate the behavior of the ROS2 application.
 
 For more detailed instructions on any of the steps, please let me know.
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/1089752/5638f0b8-9264-4bdc-9a64-50e777843aeb/code1.txt
