@@ -10,9 +10,6 @@ class RobotDecisionMaking:
         self.path = path
 
     def make_decision(self):
-        # Implement decision-making logic here
-        # For example, choose between multiple paths based on certain criteria
-        # You can use the Pythagorean distance formula to calculate the distance between two points
         def euclidean_distance(point1, point2):
             return sum([(i - j) ** 2 for i, j in zip(point1, point2)]) ** 0.5
 
