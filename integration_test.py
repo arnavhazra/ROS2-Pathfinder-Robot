@@ -25,5 +25,5 @@ def test_ros2_topics_integration():
     rclpy.shutdown()
 
 def test_callback(msg):
-    # Implement a callback function to verify the received message
+    # TODO: Implement a callback function to verify the received message
     pass
