@@ -1,6 +1,3 @@
-
-#robot.py
-
 class Robot:
     def __init__(self, grid):
         self.grid = grid
@@ -28,5 +25,5 @@ class Robot:
         return False
 
     def is_valid_move(self, x, y):
-        if 0 <= x < self.grid.shape[0] and 0 <= y < self.grid.shape[1]:
+        if 0 <= x < self.grid.shape and 0 <= y < self.grid.shape:
             return self.grid[x, y] == 0

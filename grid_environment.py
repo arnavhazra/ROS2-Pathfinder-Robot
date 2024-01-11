@@ -1,6 +1,3 @@
-
-#grid_environment.py
-
 import numpy as np
 
 def create_grid(width, height):
@@ -16,8 +13,8 @@ def set_obstacles(grid, obstacles):
 def get_start_and_end(grid):
     start = None
     end = None
-    for x in range(grid.shape[0]):
-        for y in range(grid.shape[1]):
+    for x in range(grid.shape):
+        for y in range(grid.shape):
             if grid[x, y] == 0:
                 if start is None:
                     start = (x, y)

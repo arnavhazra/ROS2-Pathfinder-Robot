@@ -1,6 +1,3 @@
-
-#grid_setup_node.py
-
 import rclpy
 from grid_environment import create_grid, set_obstacles, visualize_grid
 

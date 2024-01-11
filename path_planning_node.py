@@ -1,8 +1,4 @@
-
-#path_planning_node.py
-
 import rclpy
-import numpy as np
 from pathfinding import a_star, visualize_path
 from robot import Robot
 
@@ -11,9 +7,7 @@ def path_planning_node():
     node = rclpy.create_node('path_planning')
 
     # Initialize grid, start, and end
-    grid = np.array([[0, 0, 0],
-                     [0, 0, 0],
-                     [0, 0, 0]])
+    grid = np.array([[0, 0, 0], [0, 0, 0], [0, 0, 0]])
     start = (1, 1)
     end = (2, 2)
 
